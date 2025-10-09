@@ -11,6 +11,7 @@ const svgList = await pb
     }); 
 
 const locale = Astro.locals.lang as 'en' | 'fr' ?? 'en';
+console.log(svgList);
 ---
 
 <Layout title={ui[locale].gallery.title}>
